@@ -12,8 +12,3 @@ Deixo aqui os créditos a ele e já recomendo demais esse curso a todos aqueles 
 <a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank">Canal no YouTube"</a>
 <a href="https://www.instagram.com/cursoemvideo/" target="_blank">Instagram @cursoemvideo</a>
 <a href="https://www.instagram.com/gustavoguanabara/" target="_balnk">Instagram @gustavoguanabara</a>
-
-## MÓDULO 1: Capítulo 1
-
-Aqui vão algumas dicas preciosas que o Guanabara me ensinou no primeiro capítulo:
-
