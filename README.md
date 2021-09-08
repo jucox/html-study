@@ -11,7 +11,7 @@ Deixo aqui os créditos a ele e já recomendo demais esse curso a todos aqueles 
 <a href="https://github.com/gustavoguanabara" target="_blank">GitHub do Guanabara</a>
 <br>
 <br>
-<a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank">Canal no YouTube"</a>
+<a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank">Canal no YouTube</a>
 <br>
 <a href="https://www.instagram.com/cursoemvideo/" target="_blank">Instagram @cursoemvideo</a>
 <br>
