@@ -34,3 +34,7 @@ A HTML é uma linguagem de marcação usada no desenvolvimento do conteúdo.
 HTML = Conteúdo
 CSS = Design
 JavaScrip = Interação
+
+## Tags
+
+/*<h1>Exemplo de título</h1>*/
