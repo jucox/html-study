@@ -12,7 +12,7 @@ Uma das grandes descobertas que fiz nesse capítulo foi a diferença entre megab
 
 Ou seja, se sua internet é de 100Mbps, ela roda a uma velocidade de transferência de 12,5 MB/s. 😆
 
-# URL de um Site
+### URL de um Site
 
 https://www.meusite.com/local/local2
 
@@ -35,6 +35,15 @@ HTML = Conteúdo
 CSS = Design
 JavaScrip = Interação
 
-## Tags
+### Tags
 
-/*<h1>Exemplo de título</h1>*/
+<!--
+<h1>Exemplo de título</h1>
+
+<p>Exemplo de parágrafo</p>
+
+<img src="foto.png" alt="exemplo de foto">
+
+-->
+
+Teste
