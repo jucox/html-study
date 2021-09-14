@@ -21,3 +21,11 @@ www => Sub-domínio
 meusite.com => Domínio
 com => TLS
 /local/local2 => Caminho
+
+### Capítulo 3
+
+HMLT (HyperText Markup Language)
+CSS (Cascading Style Sheets)
+
+HTML e CSS não são linguagens de programação!
+
