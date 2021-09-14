@@ -29,3 +29,8 @@ CSS (Cascading Style Sheets)
 
 HTML e CSS não são linguagens de programação!
 
+A HTML é uma linguagem de marcação usada no desenvolvimento do conteúdo.
+
+HTML = Conteúdo
+CSS = Design
+JavaScrip = Interação
