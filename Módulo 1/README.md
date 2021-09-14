@@ -21,3 +21,11 @@ www => Sub-domínio
 meusite.com => Domínio
 com => TLS
 /local/local2 => Caminho
+
+## CAPÍTULO 3
+
+HTML (HyperText Markup Language)
+CSS (Cascading Style Sheets)
+ 
+A HTML e as CSSs não são linguagens de programação, diferentemente de JavaScript, PHP, Python, etc. A HTML é uma linguagem de marcação usada no desenvolvimento de um site. As CSSs são folhas de estilo voltadas para a estilização de objetos.
+
