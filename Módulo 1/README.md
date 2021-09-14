@@ -22,7 +22,7 @@ meusite.com => Domínio
 com => TLS
 /local/local2 => Caminho
 
-### Capítulo 3
+## Capítulo 3
 
 HMLT (HyperText Markup Language)
 CSS (Cascading Style Sheets)
@@ -34,16 +34,3 @@ A HTML é uma linguagem de marcação usada no desenvolvimento do conteúdo.
 HTML = Conteúdo
 CSS = Design
 JavaScrip = Interação
-
-### Tags
-
-<!--
-<h1>Exemplo de título</h1>
-
-<p>Exemplo de parágrafo</p>
-
-<img src="foto.png" alt="exemplo de foto">
-
--->
-
-Teste
