@@ -17,9 +17,13 @@ Ou seja, se sua internet é de 100Mbps, ela roda a uma velocidade de transferên
 https://www.meusite.com/local/local2
 
 https:// => PROTOCOLO
+<br>
 www => Sub-domínio
+<br>
 meusite.com => Domínio
+<br>
 com => TLS
+<br>
 /local/local2 => Caminho
 
 ## Capítulo 3
