@@ -6,13 +6,10 @@ Aqui eu vou salvar minhas anotações do curso de HTML & CSS do canal Curso em V
 
 Deixo aqui os créditos a ele e já recomendo demais esse curso a todos aqueles que tem vontade de aprender a desenvolver com HTML & CSS:
 
-<a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank">Playlist Módulo 1</a>
-<br>
-<a href="https://github.com/gustavoguanabara" target="_blank">GitHub do Guanabara</a>
-<br>
-<br>
-<a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank">Canal no YouTube</a>
-<br>
-<a href="https://www.instagram.com/cursoemvideo/" target="_blank">Instagram @cursoemvideo</a>
-<br>
-<a href="https://www.instagram.com/gustavoguanabara/" target="_balnk">Instagram @gustavoguanabara</a>
+<ul>
+<li><a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank">Canal no YouTube</a></li>
+<li>Playlist no YouTube:<a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank">Módulo 1</a></li>
+<li>GitHub: <a href="https://github.com/gustavoguanabara" target="_blank">@guanabara</a></li>
+<li>Instagram do Canal: <a href="https://www.instagram.com/cursoemvideo/" target="_blank">@cursoemvideo</a></li>
+<li>Instagram do Mestre: <a href="https://www.instagram.com/gustavoguanabara/" target="_balnk">@gustavoguanabara</a></li>
+</ul>
