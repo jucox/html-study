@@ -63,6 +63,53 @@
     <p>Nesta frase temos um termo em <i>itálico</i> usando a tag <strong>i</strong> (não semântica)</p>
     <p>Nesta frase temos um termo em <em>itálico</em> usando a tag <strong>em</strong> (semântica)</p>]
 
+    <h3>Texto marcado</h3>
+    <p>Nesta frase temos um <mark>termo marcado</mark> usando a tag <strong>mark</strong></p>
+    <p>Para mudar a <mark style="background-color: lime">cor do marcador</mark>, posso configurar o style dentro da tag:</p>
+
+    &lt;mark style="background-color: cor"&gt; texto marcado &lt;/mark&gt;
+    
+    <p>Podemos também configurar o estilo através de uma configuração no head:</p>
+    
+    <code><b>
+        &lt;style&gt;<br>
+        mark {<br> 
+        background-color: cor;<br>
+        }<br>
+        &lt;/style&gt;</b>
+    </code>
+
+    <h3>Texto grande e pequeno</h3>
+    <p>A tag <strong>big</strong> tinha a função de deixar o texto <big>GRANDE ASSIM</big>, mas agora está obsoleta.</p>
+    <p>A tag <strong>small</strong> tem a função de deixar o texto <small>pequeno assim</small>.</p>
+    <br>
+    <h3>Texto deletado</h3>
+    <p>Nesta frase temos um <del>termo excluído</del> utilizando a tag <strong>del</strong>.</p>
+    <br>
+    <h3>Texto inserido/sublinhado</h3>
+    <p>Nesta frase temos um <u>texto sublinhado</u> usando a tag <strong>u</strong>. (não semântica)</p>
+    <p>Nesta frase temos um <ins>texto sublinhado</ins> usando a tag <strong>ins</strong>. (semântica)</p>
+    <br>
+    <h3>Texto sobrescrito</h3>
+    <p>Nesta frase temos um texto <sup>sobrescrito</sup> usando a tag <strong>sup</strong>. Podemos usar em termos como um indíce: "x<sup>2</sup>"</p>
+    <br>
+    <h3>Texto subscrito</h3>
+    <p>Nesta frase temos um texto <sub>subscrito</sub> usando a tag <strong>sub</strong>. Podemos usar em termos como: "H<sub>2</sub>O"</p>
+    <br>
+    <hr>
+    <h2>Outras formatações</h2>
+    <h3>Código-fonte e Pré-formatação</h3>
+    <p>Nesta frase temos um <code>texto em código</code> usando a tag <strong>code</strong></p>
+    <p>Para considerar a distribuição do texto entre espaçamentos de parágrafo e quebra de linhas, podemos utilizar a tag <strong>pre</strong>, como nesse código:</p>
+
+    <pre>
+        <code>
+    const nome = "Renato"
+    const sobrenome = "Junior"
+
+    console.log(nome + " " + sobrenome)
+        </code>
+    </pre> 
 
 </body>
 </html>
