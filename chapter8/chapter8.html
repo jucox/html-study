@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 8: Semântica e Tags Obsoletas</title>
+</head>
+<body>
+    <h1>Capítulo 8</h1>
+    <h2>Semântica e Tags Obsoletas</h2>
+    <p><b>Semântica:</b> elementos de significado (conteúdo, parágrafos, listas, etc.)</p>
+    <p>Anteriormente era comum encontrar tags como <b>font color</b>, <b>font size</b> e outras que tinham o propósito de aplicar um estilo àquele elemento. Porém, no HTML5, as coisas mudaram, e hoje quem da estilo são as folhas de estilo (CSS).</p>
+    <p><b>Elementos de forma: </b>sublinhado, cor da fonte, tamanho da fonte, centralização, etc.</p>
+    <p>Algumas tags que ficaram obsoletas: <a href="https://dev.w3.org/html5/pf-summary/obsolete.html" target=
+        "_blank">Obsolete Tags</a></p>
+    <p>Existem duas alternativas viáveis para aplicar estilo ao elemento. A mais viável é em uma folha de estilo, outra é através da tag <b>style</b>, como nesse exemplo:</p>
+    <code><b>&lt;style&gt;<br>body { <br>
+    background-color: #black;<br>}<br>&lt;/style&gt;</b></code>
+    <hr>
+    <h2>Formatação de Textos</h2>
+    <h3>Negrito</h3>
+    <p>Nesta frase temos um termo em <b>negrito</b> usando a tag <strong>b</strong> (não semântica)</p>
+    <p>Nesta frase temos um termo em <strong>negrito</strong> usando a tag <strong>strong</strong> (semântica)</p>
+
+    <h3>Itálico</h3>
+    <p>Nesta frase temos um termo em <i>itálico</i> usando a tag <strong>i</strong> (não semântica)</p>
+    <p>Nesta frase temos um termo em <em>itálico</em> usando a tag <strong>em</strong> (semântica)</p>]
+
+    <h3>Texto marcado</h3>
+    <p>Nesta frase temos um <mark>termo marcado</mark> usando a tag <strong>mark</strong></p>
+    <p>Para mudar a <mark style="background-color: lime">cor do marcador</mark>, posso configurar o style dentro da tag:</p>
+
+    &lt;mark style="background-color: cor"&gt; texto marcado &lt;/mark&gt;
+    
+    <p>Podemos também configurar o estilo através de uma configuração no head:</p>
+    
+    <code><b>
+        &lt;style&gt;<br>
+        mark {<br> 
+        background-color: cor;<br>
+        }<br>
+        &lt;/style&gt;</b>
+    </code>
+
+    <h3>Texto grande e pequeno</h3>
+    <p>A tag <strong>big</strong> tinha a função de deixar o texto <big>GRANDE ASSIM</big>, mas agora está obsoleta.</p>
+    <p>A tag <strong>small</strong> tem a função de deixar o texto <small>pequeno assim</small>.</p>
+    <br>
+    <h3>Texto deletado</h3>
+    <p>Nesta frase temos um <del>termo excluído</del> utilizando a tag <strong>del</strong>.</p>
+    <br>
+    <h3>Texto inserido/sublinhado</h3>
+    <p>Nesta frase temos um <u>texto sublinhado</u> usando a tag <strong>u</strong>. (não semântica)</p>
+    <p>Nesta frase temos um <ins>texto sublinhado</ins> usando a tag <strong>ins</strong>. (semântica)</p>
+    <br>
+    <h3>Texto sobrescrito</h3>
+    <p>Nesta frase temos um texto <sup>sobrescrito</sup> usando a tag <strong>sup</strong>. Podemos usar em termos como um indíce: "x<sup>2</sup>"</p>
+    <br>
+    <h3>Texto subscrito</h3>
+    <p>Nesta frase temos um texto <sub>subscrito</sub> usando a tag <strong>sub</strong>. Podemos usar em termos como: "H<sub>2</sub>O"</p>
+    <br>
+    <hr>
+    <h2>Outras formatações</h2>
+    <h3>Código-fonte e Pré-formatação</h3>
+    <p>Nesta frase temos um <code>texto em código</code> usando a tag <strong>code</strong></p>
+    <p>Para considerar a distribuição do texto entre espaçamentos de parágrafo e quebra de linhas, podemos utilizar a tag <strong>pre</strong>, como nesse código:</p>
+
+    <pre>
+        <code>
+    const nome = "Renato"
+    const sobrenome = "Junior"
+
+    console.log(nome + " " + sobrenome)
+        </code>
+    </pre> 
+
+    <br>
+    <h3>Citações pequenas</h3>
+    <p>Nesta frase temos a seguinte citação: <q>Revesti-vos do amor, que é o elo perfeito</q>. Para isso, utilizamos a tag <strong><abbr title="quote">q</abbr></strong>.</p>
+
+    <h3>Citações completas</h3>
+    <p>A seguir teremos uma citação completa, onde usamos a tag <strong>blockquote</strong> e usamos o parâmetro <strong>cite</strong>, que é onde incluímos a origem da frase.</p>
+
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_CSS_criando_design_para_s/04cbCgAAQBAJ?hl=pt-BR&gbpv=1&dq=css&printsec=frontcover">
+        O CSS permite definir a posição onde será colocada a imagem de fundo. Para isso, podemos usar a propriedade background-position.
+    </blockquote>
+    <br>
+    <h3>Abreviações</h3>
+    <p>Nesta frase estou usando <abbr title="se liga nisso">abreviações</abbr> usando a tag <strong><abbr title="Abbreviation">abbr</abbr></strong>, que pode ser usada em abreviações como essa: <abbr title="HyperText Markup Language">HTML</abbr> (posiciona o cursor do mouse em cima para você ver)</p>
+    <br>
+    <h3>Texto invertido</h3>
+    <p>Nesta frase irei utilizar a tag <strong>bdo</strong> com o parâmetro <strong><abbr title="direction: right to left">dir="rtl"</abbr></strong>:</p>
+    <p><bdo dir="rtl">Esta frase está invertida, pois eu apliquei o código <code>&lt;bdo dir="rtl"&gt;. Que massa né? (ironia) 😃</bdo></code></p>
+    <p>Olha esse outro exemplo: <bdo dir="rtl">SOCORRAM-ME, SUBI NO ONIBUS EM MARROCOS</bdo> 😆</p>
+    <br>
+    <p>Clique <a href="../index.html">aqui</a> para voltar para a homepage!</p>
+</body>
+</html>
