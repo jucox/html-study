@@ -9,6 +9,17 @@
 <body>
     <h1>Imagens Dinâmicas</h1>
     <p>As imagens de um site não devem ser muito grandes pois podme prejudicar a experiência do usuário e tornar a navegação muito pesada, caudando lentidão. Porém, as imagens devem se adaptar ao tamanho da tela que o usuário utiliza.</p>
+    <p>Nesse capítulo vamos aprender a redimensionar a imagem com base no tamanho da tela do usuário.</p>
+    <p>Aqui embaixo temos 3 imagens que vão se alternando conforme você visualiza de um dispositivo diferente ou aumenta/diminui o tamanho da janela do seu navegador:</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <p>Para isso acontecer, usamos a tag <strong>picture</strong> e, dentro dela, as tags <strong>source:media</strong> para definir os parâmetros que transformam a imagem e <strong>img</strong> que traz a imagem padrão.</p>
+    <p>A ordem das tags <strong>source</strong> é essencial! Precisamos priorizar as que definem o menor tamanho.</p>
     <p>Clique <a href="../index.html">aqui</a> para voltar para a homepage!</p>  
 </body>
 </html>
