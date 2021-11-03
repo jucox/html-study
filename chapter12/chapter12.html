@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capítulo 12: CSSs</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
 </head>
-<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+<body>
     <h1>Utilizando CSSs no código</h1>
     <p>Percebeu que essa página está com uma fonte diferente da que vimos nos últimos capítulos? Isso é porque eu estilizei ela com CSS!</p>
     <p>As CSSs (folhas de estilo) têm o objetivo de estilizar os elementos da página com cores e tamanhos diferentes, dentre tantas outras funções. Podemos utiliza-las de 3 formas diferentes: inline, interna e externa.</p>
@@ -16,5 +21,22 @@
     <p>Através desse código temos o seguinte resultado:</p>
     <p style="color:red;background-color: yellow;">Este parágrafo está com as letras em vermelho e com o fundo amarelo!</p>
     <p>Aplicar a estilização de forma inline não é recomendada devido ao fato de ser muito limitada. Você só consegue estilizar uma tag de cada vez e isso complica quando precisa corrigir várias tags com o mesmo estilo.</p>
+
+    <h2>Usanto CSS Interno</h2>
+    <p>Para estilizar a página de maneira mais organizada, podemos aplicar os estilos através da tag <strong>style</strong> no head do html. Veja esse exemplo:</p>
+<pre>
+    <code>&lt;style&gt; 
+        body {
+            color: red;
+            background-color: yellow
+        }
+
+        p {
+            text-align: justify;
+        }
+    &lt;/style&gt; 
+    </code>
+</pre>
+    <p>Esse método de estilização também não é a maneira mais recomendada, porém é muito útil quando vamos estilizar uma única pequena página. As coisas complicam quando são muitas páginas e essas tem um código gigantesco, então recorremos às CSSs externas.</p>
 </body>
 </html>
