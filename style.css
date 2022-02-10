@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap');
 
 html {
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 header {
     text-align: center;
+    color: white;
 }
 
 section {
@@ -13,7 +15,10 @@ section {
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 10px;
+    background-color: white;
 }
+
 footer {
     text-align: center;
+    color: white;
 }
